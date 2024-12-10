@@ -12,3 +12,5 @@ Imports:
     tidyr
 Encoding: UTF-8
 Title: Advanced R3
+Suggests: 
+    usethis
