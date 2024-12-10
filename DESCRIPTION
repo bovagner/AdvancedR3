@@ -16,4 +16,5 @@ Encoding: UTF-8
 Title: Advanced R3
 Suggests: 
     gitcreds,
+    styler,
     usethis
