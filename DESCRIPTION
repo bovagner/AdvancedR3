@@ -12,7 +12,8 @@ Imports:
     snakecase,
     stringr,
     targets,
-    tidyr
+    tidyr,
+    tidyselect
 Encoding: UTF-8
 Title: Advanced R3
 Suggests: 
