@@ -10,7 +10,9 @@ descriptive_stats <- function(df) {
       value,
       list(
         mean = mean,
-        sd = sd
+        sd = sd,
+        median = median,
+        iqr = IQR
       )
     )) |>
     dplyr::mutate(across(
