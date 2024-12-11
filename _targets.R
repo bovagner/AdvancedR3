@@ -5,7 +5,9 @@
 
 # Load packages required to define the pipeline:
 library(targets)
-# library(tarchetypes) # Load other packages as needed.
+library(tarchetypes)
+library(quarto)
+
 
 # Set target options:
 tar_option_set(
@@ -64,7 +66,11 @@ list(
     command = descriptive_stats(lipidomics)
   ),
   tar_target(
-      name = fig_metabolite_distribution,
-      command = plot_distributions(lipidomics)
+    name = fig_metabolite_distribution,
+    command = plot_distributions(lipidomics)
+  ),
+  tar_quarto(
+    name = quarto_doc,
+    path = "doc/learning.qmd"
   )
 )

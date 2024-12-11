@@ -1,7 +1,9 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+.Random.seed|object|2c2dd2f82633b712|||||||||||||||
 descriptive_stats|function|da985f006c10100d|||||||||||||||
 df_stats_by_metabolites|stem|0b11583f277f47af|ce15a181d02b2e03|92951608f855da01|943109440||t20068.3792552857s|6f12aaec162c0178|501|rds|local|vector|||0.14||
 fig_metabolite_distribution|stem|07814c648818bccf|86673d84fb1f96ff|87f600889080f16e|1599393873||t20068.3849554779s|4e9f5e3f17fdac67|142631|rds|local|vector|||0.28||
 file|stem|f6bf5a5688fb274f|09442fac263aded2|2c530c1562a7fbd1|1735323524|data/lipidomics.csv|t20046.5329958273s|2ec1867e6b7db575|24313|file|local|vector|||0.02|pakke tibble blev bygget under R version 4.4.2|
 lipidomics|stem|65a50387c837cc7a|0adf46d83f39a429|f0e124423009cc2f|-1498393010||t20068.3562750152s|5efea0df906539e6|4884|rds|local|vector|||0.37||
 plot_distributions|function|487e79baaafcef39|||||||||||||||
+quarto_doc|stem|7dffed943d7c2b4b|39fd86bde40a4809|185345414c403c43|1582462002|doc/learning.html*doc/learning.qmd|t20068.3985688392s|d3593f0a5c3c6b69|25511|file|local|vector|||11.28||
