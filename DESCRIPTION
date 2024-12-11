@@ -7,14 +7,17 @@ Imports:
     ggplot2,
     here,
     knitr,
+    parsnip,
     readr,
     readxl,
+    recipes,
     rmarkdown,
     snakecase,
     stringr,
     targets,
     tidyr,
-    tidyselect
+    tidyselect,
+    workflows
 Encoding: UTF-8
 Title: Advanced R3
 Suggests: 
@@ -22,4 +25,5 @@ Suggests:
     styler,
     usethis
 Depends: 
+    tidymodels,
     tidyverse
