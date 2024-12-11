@@ -1,6 +1,6 @@
 ---
 title: "Draft Quarto document"
-author: "Your Name"
+author: "Bo Vagner Hansen"
 format: html
 ---
 
@@ -15,7 +15,10 @@ lipidomics <- tar_read(lipidomics)
 ## Results
 
 ```{r}
-tar_read(df_stats_by_metabolites)
+tar_read(df_stats_by_metabolites) |> 
+    mutate(MeanSD = glue::glue("{value_mean} ({value_sd})")) |> 
+    select(Metabolite = metabolite, `Mean SD` = MeanSD) |> 
+    knitr::kable(caption = 'Descriptive statistics of metabolites')
 ```
 
 ```{r}
