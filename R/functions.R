@@ -28,8 +28,8 @@ descriptive_stats <- function(df) {
 #'
 #' @return A ggplot2 plot object
 plot_distributions <- function(df) {
-  p <- ggplot2::ggplot(df, aes(x = value)) +
+  p <- ggplot2::ggplot(df, ggplot2::aes(x = value)) +
     ggplot2::geom_histogram() +
-    ggplot2::facet_wrap(vars(metabolite), scales = "free")
+    ggplot2::facet_wrap(ggplot2::vars(metabolite), scales = "free")
   return(p)
 }
